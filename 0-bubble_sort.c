@@ -10,7 +10,7 @@
  * Return void
 */
 
-void bubble_sort(int *array, size_t size)
+id bubble_sort(int *array, size_t size)
 {
     size_t i;
     int tmp, is_sorted;
