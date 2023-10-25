@@ -5,7 +5,7 @@
  * @array: pointer to array
  * @size: size of the array
  **/
-id counting_sort(int *array, size_t size)
+void counting_sort(int *array, size_t size)
 {
     int max_value, j, *count_array, *tmp_array;
     size_t i;
