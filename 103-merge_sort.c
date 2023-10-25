@@ -9,7 +9,7 @@
  * @dst: destination buffer
  * @size: size of buffers
  */
-id copy(int *src, int *dst, int size)
+void copy(int *src, int *dst, int size)
 {
     /* Copy elements from source (src) to destination (dst) array */
     for (int i = 0; i < size; i++)
