@@ -8,7 +8,7 @@
  * @item2: second element index
  * @order: 1 for ascending order, 0 for descending order
  */
-id swap(int arr[], int item1, int item2, int order) {
+void swap(int arr[], int item1, int item2, int order) {
     int temp;
 
     /* If in the correct order, swap the elements */
