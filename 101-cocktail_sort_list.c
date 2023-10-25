@@ -8,7 +8,7 @@
  *
  * Return: No Return.
  */
-void _swap(listint_t **node, listint_t **list)
+oid _swap(listint_t **node, listint_t **list)
 {
     listint_t *tmp = *node, *tmp2, *tmp3;
 
