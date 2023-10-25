@@ -6,7 +6,7 @@
  * @item1: index of the first element
  * @item2: index of the second element
  */
-void swap(int *array, ssize_t item1, ssize_t item2)
+id swap(int *array, ssize_t item1, ssize_t item2)
 {
     int tmp;
     tmp = array[item1];
