@@ -10,7 +10,7 @@
  *
  * Return: No Return
  */
-void csort2(int *array, int **buff, int size, int lsd)
+id csort2(int *array, int **buff, int size, int lsd)
 {
 	int i, j, csize = 10, num;
 	int carr[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
